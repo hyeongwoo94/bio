@@ -19,7 +19,7 @@ const Iam = () => {
             <option value="2">역사</option>
           </select>
         </div>
-        <div>
+        <div  className="max-h-screen">
         
           {index === "1" ? <Personality /> : null}
           {index === "2" ? <History /> : null}
