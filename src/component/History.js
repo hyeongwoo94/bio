@@ -1,6 +1,6 @@
 import 'animate.css';
 import me from '../img/me.jpg'
-import Pic from './Pic';
+import SimpleSlider from './SimpleSlider';
 const History = () => {
   return(
     <>
@@ -22,11 +22,11 @@ const History = () => {
               2006 전국 수영대회 금메달
             </li>
             <li className="mb-4">
-              2013 - 2020 남서우대학교<br />
-              글로벌 무역학과 재학/졸업
+              2013 - 2020 남서울대학교<br />
+              글로벌 무역학과 재학 / 졸업
             </li>
             <li className="mb-4">
-              2014-2016 해병대 입대/전역
+              2014-2016 해병대 입대 / 전역
             </li>
             <li className="mb-4">
               2019-2020 Twosome 점장 근무
@@ -43,8 +43,9 @@ const History = () => {
     </ul>
     </div>
     <div className="animate__animated animate__flipInX">
-    <p>갤러리 컴포넌트</p>
-      <Pic />
+      <div className="my-4 text-center">
+        <SimpleSlider />
+      </div>
     </div>
     </>
   )

@@ -14,7 +14,7 @@ const Iam = () => {
     <div className="max-w-screen-lg mx-auto">
       <div className="text-left">
         <div className="mb-8">
-          <select className="border-2 border-gray-300 rouded-sm" value={index} onChange={choice}>
+          <select className="outline-none border-2 border-gray-300 rouded-sm" value={index} onChange={choice}>
             <option value="1">성격</option>
             <option value="2">역사</option>
           </select>

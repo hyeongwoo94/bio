@@ -1,16 +1,14 @@
 import logo from "../img/logo.png";
 import { Link, Route } from "react-router-dom";
-import { useState } from "react";
+
 
 
 const Hearder = () => {
-  const click = (event) => {
-    event.onClick(true);
-  }
+  
   return (
     <div>
-      <h1 className="bg-black text-center">
-        <img className="inline-block" src={logo} alt="메인 로고"/>
+      <h1 className="bg-indigo-800 text-center">
+      <Link to="/"><img className="inline-block" src={logo} alt="메인 로고"/></Link>
       </h1>
       <div className="max-w-screen-lg text-center mx-auto">
         <header>
