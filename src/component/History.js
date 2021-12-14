@@ -44,6 +44,7 @@ const History = () => {
     </div>
     <div className="animate__animated animate__flipInX">
       <div className="my-4 text-center">
+        <h2 className="mt-8 mb-4">저는 이렇게 생겼습니다.</h2>
         <SimpleSlider />
       </div>
     </div>

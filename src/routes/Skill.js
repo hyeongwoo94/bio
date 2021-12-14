@@ -11,7 +11,7 @@ const Skill = () => {
   return (
     <>
       <Hearder />
-      <div className="max-w-screen-lg mx-auto animate__animated animate__slideInUp">
+      <div className="max-w-screen-lg mx-auto">
         <div className="my-16">
         <h2>기초 퍼블리싱</h2>
           <ul className="grid grid-cols-2 gap-12 mt-4">

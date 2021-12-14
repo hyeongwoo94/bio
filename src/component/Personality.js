@@ -62,7 +62,14 @@ const Personality = () => {
   return (
     <>
       <div className="animate__animated animate__slideInUp">
-      <h2 className="text-center text-2xl">너의 인생은 오직 한번뿐이다.</h2>
+      <ul className="grid grid-cols-2">
+        <li>
+        <h2 className="text-center text-2xl">너의 인생은 오직 한번뿐이다.</h2>
+        </li>
+        <li>
+        <h2 className="text-center text-2xl">Your Life is only one</h2>
+        </li>
+      </ul>
         <div className="max-w-screen-sm mx-auto text-xl" style={{ width: "550px" }}>
         <p className="text-center text-sm mt-12 text-gray-500">성격 변화 분포도</p>
           <Radar
@@ -79,8 +86,8 @@ const Personality = () => {
             dotLabelYOffset={5}
             gridShape="linear"
           />
-          
         </div>
+        <hr />
         <div className="">
           <dl className="my-8">
             <dt className="mt-2 font-extrabold text-2xl text-purple-500">
