@@ -10,6 +10,7 @@ const Home = () => {
           <li>slick-carousel</li>
           <li>animate.css</li>
           <li>tailwind.css</li>
+          <li>nivo.rocks</li>
         </ul>
       </div>
     </>

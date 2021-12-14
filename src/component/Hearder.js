@@ -17,7 +17,7 @@ const Hearder = () => {
               <Link to="/Skill" className="block" href="#">Skill</Link>
             </li>
             <li className="border-b-2 hover:border-sky-200 hover:text-sky-200">
-              <Link to="/Iam" className="block" href="#">I am</Link>
+              <Link to="/Iam" className="block" href="#">박형우</Link>
             </li>
             <li  className="border-b-2 hover:border-sky-200 hover:text-sky-200">
               <Link to="/Project" className="block" href="#">Project</Link>
