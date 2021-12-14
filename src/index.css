@@ -5,3 +5,54 @@
 body{
   letter-spacing: -0.5px;
 }
+
+
+@keyframes up{
+  0%{width: 0%;}
+  100%{width: 50%;}
+}
+@keyframes up_2{
+  0%{width: 0%;}
+  100%{width: 60%;}
+}
+@keyframes up_3{
+  0%{width: 0%;}
+  100%{width: 70%;}
+}
+@keyframes up_4{
+  0%{width: 0%;}
+  100%{width: 90%;}
+}
+
+.bar{
+  background-color: #4fa1ff;
+  width: 90%;
+  display: block;
+  height: 20%;
+  animation: up 2s 0.4s 1 linear alternate forwards;
+  border-radius: 15px;
+}
+.bar_2{
+  background-color: #ffd185;
+  width: 70%;
+  display: block;
+  height: 20%;
+  animation: up_2 2s 0.4s 1 linear alternate forwards;
+  border-radius: 15px;
+}
+.bar_3{
+  background-color: #ffd185;
+  width: 80%;
+  display: block;
+  height: 20%;
+  animation: up_3 2s 0.4s 1 linear alternate forwards;
+  border-radius: 15px;
+}
+.bar_4{
+  background-color: #FF665A;
+  width: 90%;
+  display: block;
+  height: 20%;
+  animation: up_4 2s 0.4s 1 linear alternate forwards;
+  border-radius: 15px;
+}
