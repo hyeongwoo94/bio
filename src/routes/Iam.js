@@ -12,14 +12,14 @@ const Iam = () => {
     <>
     <Hearder />
     <div className="max-w-screen-lg mx-auto">
-      <div className="text-left">
-        <div className="mb-8">
-          <select className="outline-none border-2 border-gray-300 rouded-sm" value={index} onChange={choice}>
+      <div className="">
+        <div className="mb-8 text-right">
+          <select className="outline-none px-2 border-2 border-gray-300 rouded-sm" value={index} onChange={choice}>
             <option value="1">성격</option>
             <option value="2">역사</option>
           </select>
         </div>
-        <div  className="max-h-screen">
+        <div  className="">
         
           {index === "1" ? <Personality /> : null}
           {index === "2" ? <History /> : null}
