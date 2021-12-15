@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Hearder from "../component/Hearder";
+import Photo from "../component/Photo";
 
 const Project = () => {
   const [index,setIndex] = useState("0");
@@ -30,7 +31,7 @@ const Project = () => {
         <div  className="">
           {index === "0" ? <div>기획/제작</div> : null}
           {index === "1" ? <div>하드코딩</div> : null}
-          {index === "2" ? <div>포토샵</div> : null}
+          {index === "2" ? <div><Photo /> </div> : null}
         </div>   
       </div>
     </div>

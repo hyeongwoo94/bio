@@ -71,7 +71,15 @@ const Personality = () => {
         </li>
       </ul>
         <div className="max-w-screen-sm mx-auto text-xl" style={{ width: "550px" }}>
-        <p className="text-center text-sm mt-12 text-gray-500">성격 변화 분포도</p>
+        <p className="text-center text-md mt-12 text-gray-500">성격 변화 분포도</p>
+        <ul className="grid grid-cols-2 text-center">
+          <li>
+          <span className="w-3 h-3 bg-blue-500 inline-block"></span><span className="text-sm ml-2 text-gray-500">과거</span>
+          </li>
+          <li>
+          <span className="w-3 h-3 bg-red-500 inline-block"></span><span className="text-sm ml-2 text-gray-500">현재</span>
+          </li>
+        </ul>
           <Radar
             width={550}
             height={550}
@@ -94,7 +102,7 @@ const Personality = () => {
               긍정적
             </dt>
             <dd className="ml-12 p-4 border-2 border-purple-100">
-              과거에는 잘 할 수 있다는 것보다 실패의 두려움이 많았다. 하지만 해병대 많은 것을 깨달았다. 해병대에서는 "죄송합니다", "모르겠습니다" 등 부정적인 말을 못 하게 했다.<br />
+              과거에는 잘 할 수 있다는 것보다 실패의 두려움이 많았다. 하지만 해병대에서 많은 것을 깨달았다. 해병대에서는 "죄송합니다", "모르겠습니다" 등 부정적인 말을 못 하게 했다.<br />
               이 말들 대신에 "확인해보겠습니다", "제가 잘하겠습니다"를 사용하게 했다. 이것은 하나의 부조리이다.
               처음에는 당연히 이해가 안 됐다. 모르는 것을 모른다고 말하는 게 잘못된 게 아니라고 생각했기 때문이다.<br />
               이 부조리가 나에게 긍정적인 영향을 준 포인트는 바로 행동이다. 말만 "확인해보겠습니다", "제가 잘하겠습니다" 이렇게 하는 것이 아니라 실제로 확인하는 액션을 취해야 했기 때문이다.<br />
