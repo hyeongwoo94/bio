@@ -7,12 +7,13 @@ import js from "../img/js.png";
 import sass from "../img/sass.png";
 import photoshop from "../img/photoshop.png";
 import tailwind from "../img/tailwind.png";
+import Footer from "../component/Footer";
 const Skill = () => {
   return (
     <>
       <Hearder />
       <div className="max-w-screen-lg mx-auto">
-        <div className="my-16">
+        <div className="mt-8">
         <h2>기초 퍼블리싱</h2>
           <ul className="grid grid-cols-2 gap-12 mt-4">
             <li className="flex gap-2">
@@ -52,7 +53,7 @@ const Skill = () => {
             <li className="flex gap-2">
               <img className="inline-block w-1/6" src={react} alt="리액트" />
               <span className="bar my-auto"></span>
-              <span>60%</span>
+              <span>50%</span>
             </li>
           </ul>
           
@@ -77,6 +78,7 @@ const Skill = () => {
         </div>
       </div>
       <div></div>
+      <Footer />
     </>
   );
 };

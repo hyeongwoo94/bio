@@ -19,8 +19,8 @@ export default class Hardcode extends Component {
       cssEase: "linear",
     };
     return (
-      <div className="mb-8">
-        <h2 className="text-center text-sm text-gray-400 my-6">이미지 클릭시 해당헤이지 바로가기</h2>
+      <div className="mb-8 dodum animate__animated animate__slideInUp">
+        <h2 className="text-center text-sm text-gray-400 my-6">이미지 클릭시 해당페이지 바로가기</h2>
         <Slider {...settings}>
           <div className="">
               <a

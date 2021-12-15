@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Footer from "../component/Footer";
 import Hardcode from "../component/Hardcode";
 import Hearder from "../component/Hearder";
 import Photo from "../component/Photo";
@@ -14,7 +15,7 @@ const Project = () => {
       <Hearder />
       <div className="max-w-screen-lg mx-auto">
       <div className="">
-        <div className="mb-8 text-right">
+        <div className="mb-8 text-right dodum">
           <select className="outline-none px-2 border-2 border-gray-300 rouded-sm" value={index} onChange={choice}>
             <option value="0">기획/제작</option>
             <option value="1">하드코딩</option>
@@ -28,6 +29,7 @@ const Project = () => {
         </div>   
       </div>
     </div>
+    <Footer />
     </>
   );
 };

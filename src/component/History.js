@@ -5,6 +5,14 @@ const History = () => {
   return(
     <>
     <div>
+    <ul className="grid grid-cols-2">
+        <li>
+        <h2 className="text-center text-2xl dodum">좌우명:<span className="text-center text-3xl ml-2 Tangerine">Your <span className="text-red-600">Life</span> is only <span className="text-red-600">one</span></span></h2>
+        </li>
+        <li>
+        
+        </li>
+      </ul>
     <ul className="grid md:grid-cols-2 gap-4 ">
       <li>
        <div className="animate__animated animate__fadeInTopLeft mt-4">
@@ -13,8 +21,8 @@ const History = () => {
       </li>
       <li className="text-center ">
         <div className="animate__animated animate__fadeInTopRight mt-4 py-8 rounded-2xl shadow-2xl">
-          <h2 className="text-3xl font-bold">HISTORY</h2>
-          <ul className="mt-2">
+          <h2 className="text-3xl font-bold dodum">HISTORY</h2>
+          <ul className="mt-2 dodum">
             <li className="mb-4">
               1994. 06. 25 출생
             </li>
@@ -44,7 +52,7 @@ const History = () => {
     </div>
     <div className="animate__animated animate__flipInX">
       <div className="my-4 text-center">
-        <h2 className="mt-8 mb-4">저는 이렇게 생겼습니다.</h2>
+        <h2 className="mt-8 mb-4 dodum">저는 이렇게 생겼습니다 😁</h2>
         <SimpleSlider />
       </div>
     </div>
