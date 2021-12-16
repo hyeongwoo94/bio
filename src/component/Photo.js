@@ -4,8 +4,10 @@ import face3 from "../img/person3-3.jpg";
 import jincho from "../img/jincho.jpg";
 import candl from "../img/candl.jpg";
 import food from "../img/food.jpg";
+import { useEffect, useState } from "react";
 
 const Photo = () => {
+  
   return (
     <>
       <div className="dodum animate__animated animate__slideInUp">
@@ -31,6 +33,9 @@ const Photo = () => {
             <img className="border" src={candl} alt="향초" />
           </div>
         </div>
+      </div>
+      <div>
+        
       </div>
     </>
   );

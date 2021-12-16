@@ -29,7 +29,12 @@ body{
 	bottom: -50px;
 	position: absolute;
 }
-
+.bg-img{
+  background-image:url("./img/pngegg.png");
+  opacity: 0.6;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 @keyframes up{
   0%{width: 0%;}
