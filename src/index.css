@@ -12,9 +12,14 @@
 .Tangerine{
   font-family: 'Tangerine', cursive;
 }
-@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap');
+@font-face {
+  font-family: 'OTWelcomeRA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/OTWelcomeRA.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
 .Batang{
-  font-family: 'Gowun Batang', serif;
+  font-family: 'OTWelcomeRA';
 }
 @font-face {
   font-family: 'IM_Hyemin-Bold';
@@ -44,12 +49,7 @@
   font-family: 'CookieRun-Regular';
 }
 /*  */
-html{
-  letter-spacing: -0.5px;
-    min-height: 100vh;
-    position: relative;
-    width: 100%;
-}
+
 #footer{
   width: 100%;
 	/* height: ; */

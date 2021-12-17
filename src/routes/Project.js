@@ -18,7 +18,7 @@ const Project = () => {
         <div className="mb-8 text-right dodum">
           <select className="outline-none px-2 border-2 border-gray-300 rouded-sm" value={index} onChange={choice}>
             <option value="0">기획/제작</option>
-            <option value="1">러블리싱</option>
+            <option value="1">퍼블리싱</option>
             <option value="2">포토샵</option>
           </select>
         </div>

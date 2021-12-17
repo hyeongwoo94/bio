@@ -92,8 +92,8 @@ const Personality = () => {
         </div>
         <hr />
         <div className="">
-          <dl className="my-8">
-            <dt className="mt-2 font-extrabold text-2xl text-purple-500 dodum">
+          <dl className="my-8 text-xl">
+            <dt className="mt-2 font-extrabold text-2xl dodum">
               긍정적
             </dt>
             <dd className="ml-12 p-4 border-2 border-purple-100 Batang">
@@ -104,7 +104,7 @@ const Personality = () => {
               정말 말도 안 되는 질문에 "확인해보겠습니다"를 말하고 그것을 확인하러 가면 선임들이 당황해서 말릴 정도로 확인하는 액션을 취했다. 이렇게 액션을 취하다 보니 정말 말도 안 되는 것을 확인할 때도 있었다.<br />
               이때 나는 변했다. <strong className="text-xl text-red-400">아무리 어려운 거라도 한번 시도해보자는 생각을 하게 되니 모든 상황에 긍정적으로 생각하게 되었다.</strong>
             </dd>
-            <dt className="mt-6 font-extrabold text-2xl text-purple-500 text-right dodum">
+            <dt className="mt-6 font-extrabold text-2xl text-right dodum">
               부정적
             </dt>
             <dd className="mr-12 p-4 border-2 border-purple-100 bg-gray-50 Batang">
@@ -113,7 +113,7 @@ const Personality = () => {
               지금은 이러한 환경 때문에 내가 바르게 살고 있다고 생각한다. 어렸을 적에는 이 환경이 싫어서 빨리 독립하고 싶어 수능이 끝난 후 부모님께 손을 벌리지 않고 끊임없이 아르바이트했다.
               심지어 전역 날에 전역복을 입고 아르바이트 면접을 보러 갔었다. <br />이러한 경험 때문에 <strong className="text-xl text-red-400">절약하는 법과 부모님께 의존적이 아닌 자립심을 가진 내가 되었다고 생각한다.</strong>
             </dd>
-            <dt className="mt-6 font-extrabold text-2xl text-purple-500 dodum">
+            <dt className="mt-6 font-extrabold text-2xl dodum">
               성실함
             </dt>
             <dd className="ml-12 p-4 border-2 border-purple-100 Batang">
@@ -122,7 +122,7 @@ const Personality = () => {
               성실함은 당연하다고 생각할 수 있겠지만 익숨함에 잊는 경우가 많다. <strong className="text-xl text-red-400">성실함을 잊지않고 인지하고 있는 자체가 성실함을 갖고 있는 사람이라고 생각한다.</strong>
 
             </dd>
-            <dt className="mt-6 font-extrabold text-2xl text-purple-500 text-right dodum">
+            <dt className="mt-6 font-extrabold text-2xl text-right dodum">
               마인드
             </dt>
             <dd className="mr-12 p-4 border-2 border-purple-100 bg-gray-50 Batang">
@@ -132,7 +132,7 @@ const Personality = () => {
               어디선가 "세상에 틀린 것은 없다, 다를 뿐이다."라는 글귀를 보고 나는 기뻤다. 왜냐하면, 이 글귀는 내가 틀린 사람이 아니라 다른 사람이라는 것을 알았기 때문이다.<br />
               나와 다른 생각을 하는 사람을 보고 "왜 틀린 것을 우기는 걸까?"라고 스트레스를 받는 것이 아니라 "그럴 수도 있겠다"라는 생각을 하여 상대방의 의견을 존중하고 맞춰가는 사람이 되었다. 
             </dd>
-            <dt className="mt-6 font-extrabold text-2xl text-purple-500 dodum">
+            <dt className="mt-6 font-extrabold text-2xl dodum">
               행복함
             </dt>
             <dd className="ml-12 p-4 border-2 border-purple-100 Batang">
