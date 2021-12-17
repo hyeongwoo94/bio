@@ -4,8 +4,6 @@ import face3 from "../img/person3-3.jpg";
 import jincho from "../img/jincho.jpg";
 import candl from "../img/candl.jpg";
 import food from "../img/food.jpg";
-import Modal from 'react-modal'
-import { useState } from "react";
 
 const Photo = () => {
  

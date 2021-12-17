@@ -132,3 +132,7 @@ html{
   border-radius: 15px;
 }
 /* 애니메이션 */
+
+.active{
+  color: black;
+}
