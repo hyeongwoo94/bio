@@ -82,7 +82,7 @@ const Home = () => {
               <li className="text-2xl pb-4 cook">Project</li>
               <li>
                 <Link to="/Project" className="text-right">
-                  <i className="xi-plus text-xl text-gray-400 hover:text-green-300"></i>
+                  <i className="xi-plus text-xl text-gray-400 hover:text-red-400"></i>
                 </Link>
               </li>
             </ul>

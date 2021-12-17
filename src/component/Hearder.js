@@ -16,7 +16,7 @@ const Hearder = () => {
               <NavLink
                 
                 to="/Iam"
-                className="block text-gray-300 hover:text-green-300"
+                className="block text-gray-300 hover:text-red-400"
                 href="#"
               >
                 박형우
@@ -26,7 +26,7 @@ const Hearder = () => {
               <NavLink
                 
                 to="/Skill"
-                className="block text-gray-300 hover:text-green-300"
+                className="block text-gray-300 hover:text-red-400"
                 href="#"
               >
                 Skill
@@ -36,7 +36,7 @@ const Hearder = () => {
               <NavLink
                 
                 to="/Project"
-                className="block text-gray-300 hover:text-green-300"
+                className="block text-gray-300 hover:text-red-400"
                 href="#"
               >
                 Project
