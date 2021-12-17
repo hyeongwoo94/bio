@@ -28,7 +28,7 @@ export default class Hardcode extends Component {
                 rel="noreferrer"
                 href="http://hyeong.dothome.co.kr/renewal/nello.html"
               >
-                <img className=" w-auto" src={nello} alt="내사진" />
+                <img className=" w-auto" src={nello} alt="리뉴얼사진" />
               </a>
           </div>
           <div className="">
@@ -37,7 +37,7 @@ export default class Hardcode extends Component {
                 rel="noreferrer"
                 href="http://hyeong.dothome.co.kr/renewal/home.html"
               >
-                <img className="bo w-auto" src={tones} alt="내사진" />
+                <img className="bo w-auto" src={tones} alt="리뉴얼사진" />
               </a>
           </div>
           <div className="">
@@ -46,7 +46,7 @@ export default class Hardcode extends Component {
                 rel="noreferrer"
                 href="http://hyeong.dothome.co.kr/renewal/ace.html"
               >
-                <img className="border w-auto" src={ace} alt="내사진" />
+                <img className="border w-auto" src={ace} alt="리뉴얼사진" />
               </a>
           </div>
         </Slider>

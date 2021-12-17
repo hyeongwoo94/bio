@@ -13,12 +13,12 @@ const Project = () => {
   return (
     <>
       <Hearder />
-      <div className="max-w-screen-lg mx-auto mb-20">
+      <div className="max-w-screen-lg mx-auto mb-20 mt-4">
       <div className="">
         <div className="mb-8 text-right dodum">
           <select className="outline-none px-2 border-2 border-gray-300 rouded-sm" value={index} onChange={choice}>
             <option value="0">기획/제작</option>
-            <option value="1">하드코딩</option>
+            <option value="1">러블리싱</option>
             <option value="2">포토샵</option>
           </select>
         </div>

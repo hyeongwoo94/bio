@@ -4,20 +4,19 @@ import { Link, NavLink, } from "react-router-dom";
 const Hearder = () => {
 
   return (
-    <div>
-      <h1 className="bg-gray-900 text-center">
+    <div className="bg-gray-900">
+      <div className="max-w-screen-lg mx-auto grid grid-cols-2 justify-betwwen ">
+      <p className="text-left">
         <Link to="/">
           <img className="inline-block" src={logo} alt="메인 로고" />
         </Link>
-      </h1>
-      <div className="max-w-screen-lg text-center mx-auto cook">
-        <header>
-          <ul className="flex justify-end mx-auto my-4 text-2xl gap-4">
+      </p>
+      <ul className="flex justify-end my-4 text-2xl gap-4 pt-2">
             <li>
               <NavLink
-                activeclassname="text-green-500"
+                
                 to="/Iam"
-                className="block border-b-2 hover:border-black text-gray-300 hover:text-black"
+                className="block text-gray-300 hover:text-green-300"
                 href="#"
               >
                 박형우
@@ -25,9 +24,9 @@ const Hearder = () => {
             </li>
             <li>
               <NavLink
-                activeclassname="text-green-500"
+                
                 to="/Skill"
-                className="block border-b-2 hover:border-black text-gray-300 hover:text-black"
+                className="block text-gray-300 hover:text-green-300"
                 href="#"
               >
                 Skill
@@ -35,15 +34,19 @@ const Hearder = () => {
             </li>
             <li>
               <NavLink
-                activeclassname="text-green-500"
+                
                 to="/Project"
-                className="block border-b-2 hover:border-black text-gray-300 hover:text-black"
+                className="block text-gray-300 hover:text-green-300"
                 href="#"
               >
                 Project
               </NavLink>
             </li>
           </ul>
+      </div>
+      <div className="max-w-screen-lg text-center mx-auto cook">
+        <header>
+          
         </header>
       </div>
     </div>

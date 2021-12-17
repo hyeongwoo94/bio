@@ -17,13 +17,13 @@
   font-family: 'Gowun Batang', serif;
 }
 @font-face {
-  font-family: 'paybooc-Medium';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/paybooc-Medium.woff') format('woff');
+  font-family: 'IM_Hyemin-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/IM_Hyemin-Bold.woff2') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 .face{
-  font-family: 'paybooc-Medium';
+  font-family: 'IM_Hyemin-Bold';
 }
 @font-face {
   font-family: 'Middleschool_student';
@@ -55,13 +55,6 @@ html{
 	/* height: ; */
 	bottom: 0px;
 	position: fixed;
-}
-.bg-img{
-  background-image:url("./img/pngegg.jpg");
-  
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: block;
 }
 /* 이미지 확대 */
 .scale {
@@ -134,5 +127,5 @@ html{
 /* 애니메이션 */
 
 .active{
-  color: black;
+  color: #6ee7b7;
 }
