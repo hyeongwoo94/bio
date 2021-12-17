@@ -4,23 +4,24 @@ import face3 from "../img/person3-3.jpg";
 import jincho from "../img/jincho.jpg";
 import candl from "../img/candl.jpg";
 import food from "../img/food.jpg";
-import { useEffect, useState } from "react";
+import Modal from 'react-modal'
+import { useState } from "react";
 
 const Photo = () => {
-  
+ 
   return (
     <>
       <div className="dodum animate__animated animate__slideInUp">
         <div className="mb-8">
           <h2 className="mb-4 text-xl">인물 보정</h2>
           <ul className="grid-cols-3 grid gap-4">
-            <li>
-              <img id="small" src={face1} alt="인물보정1" />
+            <li className="scale">
+              <img src={face1} alt="인물보정1" />
             </li>
-            <li>
+            <li className="scale">
               <img src={face2} alt="인물보정2" />
             </li>
-            <li>
+            <li className="scale">
               <img src={face3} alt="인물보정3" />
             </li>
           </ul>
@@ -35,7 +36,7 @@ const Photo = () => {
         </div>
       </div>
       <div>
-        
+    
       </div>
     </>
   );

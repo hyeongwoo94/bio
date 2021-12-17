@@ -16,8 +16,35 @@
 .Batang{
   font-family: 'Gowun Batang', serif;
 }
+@font-face {
+  font-family: 'paybooc-Medium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/paybooc-Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.face{
+  font-family: 'paybooc-Medium';
+}
+@font-face {
+  font-family: 'Middleschool_student';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_08@1.0/Middleschool_student.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.student{
+  font-family: 'Middleschool_student';
+}
+@font-face {
+  font-family: 'CookieRun-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.cook{
+  font-family: 'CookieRun-Regular';
+}
 /*  */
-body{
+html{
   letter-spacing: -0.5px;
     min-height: 100vh;
     position: relative;
@@ -26,15 +53,34 @@ body{
 #footer{
   width: 100%;
 	/* height: ; */
-	bottom: -50px;
-	position: absolute;
+	bottom: 0px;
+	position: fixed;
 }
 .bg-img{
-  background-image:url("./img/pngegg.png");
-  opacity: 0.6;
+  background-image:url("./img/pngegg.jpg");
+  
   background-repeat: no-repeat;
   background-size: cover;
+  display: block;
 }
+/* 이미지 확대 */
+.scale {
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transition: all 0.3s ease-in-out;   /* 부드러운 모션을 위해 추가*/
+}
+.scale:hover {
+  transform: scale(2);
+  -webkit-transform: scale(2);
+  -moz-transform: scale(2);
+  -ms-transform: scale(2);
+  -o-transform: scale(2);
+  z-index: 10;
+}
+/*  */
 
 @keyframes up{
   0%{width: 0%;}

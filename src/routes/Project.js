@@ -13,7 +13,7 @@ const Project = () => {
   return (
     <>
       <Hearder />
-      <div className="max-w-screen-lg mx-auto">
+      <div className="max-w-screen-lg mx-auto mb-20">
       <div className="">
         <div className="mb-8 text-right dodum">
           <select className="outline-none px-2 border-2 border-gray-300 rouded-sm" value={index} onChange={choice}>
