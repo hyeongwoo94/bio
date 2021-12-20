@@ -12,10 +12,10 @@ const Skill = () => {
   return (
     <>
       <Hearder />
-      <div className="max-w-screen-lg mx-auto mb-20 mt-4">
+      <div className="max-w-screen-lg mx-auto mb-20 mt-4 px-2 md:px-0 cook">
         <div className="mt-8">
         <h2>기초 퍼블리싱</h2>
-          <ul className="grid grid-cols-2 gap-12 mt-4">
+          <ul className="grid md:grid-cols-2 gap-12 mt-4">
             <li className="flex gap-2">
               <img className="inline-block w-1/6" src={html} alt="html" />
               <span className="bar_4 my-auto"></span>
@@ -35,7 +35,7 @@ const Skill = () => {
           
           <hr className="my-8" />
           <h2>CSS 라이브러리, 프레임 워크</h2>
-          <ul className="grid grid-cols-2 gap-12 mt-4">
+          <ul className="grid md:grid-cols-2 gap-12 mt-4">
             <li className="flex gap-2">
               <img
                 className="inline-block w-1/6"
@@ -59,7 +59,7 @@ const Skill = () => {
           
           <hr className="my-8" />
           <h2>디자인 툴</h2>
-          <ul className="grid grid-cols-2 gap-12 mt-4">
+          <ul className="grid md:grid-cols-2 gap-12 mt-4">
             <li className="flex gap-2">
               <img
                 className="inline-block w-1/6"

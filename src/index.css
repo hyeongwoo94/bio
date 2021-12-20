@@ -39,14 +39,10 @@
 .student{
   font-family: 'Middleschool_student';
 }
-@font-face {
-  font-family: 'CookieRun-Regular';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
 .cook{
-  font-family: 'CookieRun-Regular';
+  font-family: 'Noto Sans KR', sans-serif;
 }
 /*  */
 
@@ -57,22 +53,25 @@
 	position: fixed;
 }
 /* 이미지 확대 */
-.scale {
-  transform: scale(1);
-  -webkit-transform: scale(1);
-  -moz-transform: scale(1);
-  -ms-transform: scale(1);
-  -o-transform: scale(1);
-  transition: all 0.3s ease-in-out;   /* 부드러운 모션을 위해 추가*/
+@media (min-width: 1280px){
+  .scale {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transition: all 0.3s ease-in-out;   /* 부드러운 모션을 위해 추가*/
+  }
+  .scale:hover {
+    transform: scale(2);
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    -ms-transform: scale(2);
+    -o-transform: scale(2);
+    z-index: 10;
+  }
 }
-.scale:hover {
-  transform: scale(2);
-  -webkit-transform: scale(2);
-  -moz-transform: scale(2);
-  -ms-transform: scale(2);
-  -o-transform: scale(2);
-  z-index: 10;
-}
+
 /*  */
 
 @keyframes up{

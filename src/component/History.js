@@ -5,14 +5,15 @@ const History = () => {
   return(
     <>
     <div>
-    <ul className="grid grid-cols-2">
-        <li>
-        <h2 className="text-center text-2xl dodum">좌우명:<span className="text-center text-3xl ml-2 Tangerine">Your <span className="text-red-600">Life</span> is only <span className="text-red-600">one</span></span></h2>
-        </li>
-        <li>
+    
+        <h2 className="text-center text-2xl dodum tx">
+          좌우명:
+          <span className="text-center text-3xl ml-2 Tangerine">
+            Your <span className="text-red-600">Life</span> is only 
+            <span className="text-red-600">one</span></span>
+        </h2>
         
-        </li>
-      </ul>
+   
     <ul className="grid md:grid-cols-2 gap-4 ">
       <li>
        <div className="animate__animated animate__fadeInTopLeft mt-4">

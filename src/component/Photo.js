@@ -12,7 +12,7 @@ const Photo = () => {
       <div className="dodum animate__animated animate__slideInUp">
         <div className="mb-8">
           <h2 className="mb-4 text-xl">인물 보정</h2>
-          <ul className="grid-cols-3 grid gap-4">
+          <ul className="grid-cols-2 md:grid-cols-3 grid gap-4">
             <li className="scale">
               <img src={face1} alt="인물보정1" />
             </li>
@@ -27,9 +27,9 @@ const Photo = () => {
         <div>
           <h2 className="mb-4 text-xl">상세 페이지</h2>
           <div className="grid grid-cols-3 gap-4">
-            <img className="border" src={jincho} alt="진초영묘사향단" />
-            <img className="border" src={food} alt="제육" />
-            <img className="border" src={candl} alt="향초" />
+            <a href={jincho} onClick={"_blank"}><img className="border" src={jincho} alt="진초영묘사향단" /></a>
+            <a href={food} onClick={"_blank"}><img className="border" src={food} alt="제육" /></a>
+            <a href={candl} onClick={"_blank"}><img className="border" src={candl} alt="향초" /></a>
           </div>
         </div>
       </div>

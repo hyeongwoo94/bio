@@ -12,7 +12,7 @@ const Iam = () => {
   return(
     <>
     <Hearder />
-    <div className="max-w-screen-lg mx-auto mb-20 mt-4">
+    <div className="max-w-screen-lg mx-auto mb-20 mt-4 px-2 md:px-0">
       <div className="">
         <div className="mb-8 text-right dodum">
           <select className="outline-none px-2 border-2 border-gray-300 rouded-sm" value={index} onChange={choice}>
