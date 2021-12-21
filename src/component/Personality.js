@@ -103,7 +103,7 @@ const Personality = () => {
         <div className="">
           <dl className="my-8 text-xl">
             <dt className="mt-2 font-extrabold text-2xl dodum mb-2">긍정적</dt>
-            <dd className="ml-12 md:p-4 border-2 border-purple-100 cook text-sm md:text-xl">
+            <dd className="md:ml-12 p-4 border-2 border-purple-100 cook text-sm md:text-xl`">
               과거에는 잘 할 수 있다는 것보다 실패의 두려움이 많았다. 하지만
               해병대에서 많은 것을 깨달았다. 해병대에서는 "죄송합니다",
               "모르겠습니다" 등 부정적인 말을 못 하게 했다.
@@ -123,13 +123,13 @@ const Personality = () => {
               때도 있었다.
               <br />
               이때 나는 변했다.{" "}
-              <strong className="text-xl text-red-400">
+              <strong className="text-red-400">
                 아무리 어려운 거라도 한번 시도해보자는 생각을 하게 되니 모든
                 상황에 긍정적으로 생각하게 되었다.
               </strong>
             </dd>
             <dt className="mt-6 font-extrabold text-2xl dodum mb-2">부정적</dt>
-            <dd className="ml-12 md:p-4 border-2 border-purple-100 bg-gray-50 cook text-sm md:text-xl">
+            <dd className="md:ml-12 p-4 border-2 border-purple-100 bg-gray-50 cook text-sm md:text-xl`">
               나는 가부장적인 집안의 삼 남매 중 둘째다. 어렸을 적에는 항상
               형에게 가려져서 살았고 늦둥이 여동생이 태어나면서는 늦둥이에게
               밀려 살았다.
@@ -143,13 +143,13 @@ const Personality = () => {
               손을 벌리지 않고 끊임없이 아르바이트했다. 심지어 전역 날에
               전역복을 입고 아르바이트 면접을 보러 갔었다. <br />
               이러한 경험 때문에{" "}
-              <strong className="text-xl text-red-400">
+              <strong className="text-red-400">
                 절약하는 법과 부모님께 의존적이 아닌 자립심을 가진 내가 되었다고
                 생각한다.
               </strong>
             </dd>
             <dt className="mt-6 font-extrabold text-2xl dodum mb-2">성실함</dt>
-            <dd className="ml-12 md:p-4 border-2 border-purple-100 cook text-sm md:text-xl">
+            <dd className="md:ml-12 p-4 border-2 border-purple-100 cook text-sm md:text-xl`">
               내가 성실한 이유는 간단하다. 시간에 쫓기는 것이 싫다. 그렇다고
               많은 양을 한 번에 하는 것도 싫어한다. 그래서 항상 할당량을 정해
               놓는다.
@@ -157,14 +157,14 @@ const Personality = () => {
               정해진 시간에 정해진 양을 실행하여 스트레스도 받지 않고 완성을 할
               수가 있다. <br />
               성실함은 당연하다고 생각할 수 있겠지만 익숨함에 잊는 경우가 많다.{" "}
-              <strong className="text-xl text-red-400">
+              <strong className="text-red-400">
                 성실함을 잊지않고 인지하고 있는 자체가 성실함을 갖고 있는
                 사람이라고 생각한다.
               </strong>
             </dd>
             <dt className="mt-6 font-extrabold text-2xl dodum mb-2">마인드</dt>
-            <dd className="ml-12 md:p-4 border-2 border-purple-100 bg-gray-50 cook text-sm md:text-xl">
-              <strong className="text-xl text-red-400">
+            <dd className="md:ml-12 p-4 border-2 border-purple-100 bg-gray-50 cook text-sm md:text-xl`">
+              <strong className="text-red-400">
                 항상 답은 정해져 있다는 사고방식에서 그럴 수도 있다는 사고방식을
                 갖게 되었다.
               </strong>
@@ -186,8 +186,8 @@ const Personality = () => {
               상대방의 의견을 존중하고 맞춰가는 사람이 되었다.
             </dd>
             <dt className="mt-6 font-extrabold text-2xl dodum mb-2">행복함</dt>
-            <dd className="ml-12 md:p-4 border-2 border-purple-100 cook text-sm md:text-xl">
-              <strong className="text-xl text-red-400">
+            <dd className="md:ml-12 p-4 border-2 border-purple-100 cook text-sm md:text-xl`">
+              <strong className="text-red-400">
                 행복 지수가 바뀐 결정적인 요인은 마인드이다.
               </strong>
               <br />
