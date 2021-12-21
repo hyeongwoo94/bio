@@ -21,7 +21,7 @@ const Hearder = () => {
               className="block text-gray-300 hover:text-red-400"
               href="#"
             >
-              About me
+              About
             </NavLink>
           </li>
           <li>

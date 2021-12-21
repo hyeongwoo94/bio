@@ -103,7 +103,7 @@ const Personality = () => {
         <div className="">
           <dl className="my-8 text-xl">
             <dt className="mt-2 font-extrabold text-2xl dodum mb-2">긍정적</dt>
-            <dd className="ml-12 p-4 border-2 border-purple-100 cook">
+            <dd className="ml-12 md:p-4 border-2 border-purple-100 cook text-sm md:text-xl">
               과거에는 잘 할 수 있다는 것보다 실패의 두려움이 많았다. 하지만
               해병대에서 많은 것을 깨달았다. 해병대에서는 "죄송합니다",
               "모르겠습니다" 등 부정적인 말을 못 하게 했다.
@@ -129,7 +129,7 @@ const Personality = () => {
               </strong>
             </dd>
             <dt className="mt-6 font-extrabold text-2xl dodum mb-2">부정적</dt>
-            <dd className="ml-12 p-4 border-2 border-purple-100 bg-gray-50 cook">
+            <dd className="ml-12 md:p-4 border-2 border-purple-100 bg-gray-50 cook text-sm md:text-xl">
               나는 가부장적인 집안의 삼 남매 중 둘째다. 어렸을 적에는 항상
               형에게 가려져서 살았고 늦둥이 여동생이 태어나면서는 늦둥이에게
               밀려 살았다.
@@ -149,7 +149,7 @@ const Personality = () => {
               </strong>
             </dd>
             <dt className="mt-6 font-extrabold text-2xl dodum mb-2">성실함</dt>
-            <dd className="ml-12 p-4 border-2 border-purple-100 cook">
+            <dd className="ml-12 md:p-4 border-2 border-purple-100 cook text-sm md:text-xl">
               내가 성실한 이유는 간단하다. 시간에 쫓기는 것이 싫다. 그렇다고
               많은 양을 한 번에 하는 것도 싫어한다. 그래서 항상 할당량을 정해
               놓는다.
@@ -163,7 +163,7 @@ const Personality = () => {
               </strong>
             </dd>
             <dt className="mt-6 font-extrabold text-2xl dodum mb-2">마인드</dt>
-            <dd className="ml-12 p-4 border-2 border-purple-100 bg-gray-50 cook">
+            <dd className="ml-12 md:p-4 border-2 border-purple-100 bg-gray-50 cook text-sm md:text-xl">
               <strong className="text-xl text-red-400">
                 항상 답은 정해져 있다는 사고방식에서 그럴 수도 있다는 사고방식을
                 갖게 되었다.
@@ -186,7 +186,7 @@ const Personality = () => {
               상대방의 의견을 존중하고 맞춰가는 사람이 되었다.
             </dd>
             <dt className="mt-6 font-extrabold text-2xl dodum mb-2">행복함</dt>
-            <dd className="ml-12 p-4 border-2 border-purple-100 cook">
+            <dd className="ml-12 md:p-4 border-2 border-purple-100 cook text-sm md:text-xl">
               <strong className="text-xl text-red-400">
                 행복 지수가 바뀐 결정적인 요인은 마인드이다.
               </strong>
