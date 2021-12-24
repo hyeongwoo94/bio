@@ -19,9 +19,9 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "rcraco start",
+    "build": "rcraco build",
+    "test": "craco test",
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build",
     "predeploy": "npm run build"
@@ -49,5 +49,5 @@
     "postcss": "^7.0.39",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
   },
-  "homepages": "https://hyeongwoo94.github.io/bio"
+  "homepage": "https://hyeongwoo94.github.io/bio"
 }
