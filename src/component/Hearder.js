@@ -7,7 +7,7 @@ const Hearder = () => {
       <div className="bg-gray-900">
         <div className="max-w-screen-lg mx-auto">
           <p className="text-center">
-            <Link to="/">
+            <Link to="/bio">
               <img className="inline-block" src={logo} alt="메인 로고" />
             </Link>
           </p>
