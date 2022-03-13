@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/bio/static/css/main.030443e6.chunk.css",
-    "main.js": "/bio/static/js/main.90baf821.chunk.js",
-    "main.js.map": "/bio/static/js/main.90baf821.chunk.js.map",
+    "main.js": "/bio/static/js/main.1c6c7879.chunk.js",
+    "main.js.map": "/bio/static/js/main.1c6c7879.chunk.js.map",
     "runtime-main.js": "/bio/static/js/runtime-main.4b678895.js",
     "runtime-main.js.map": "/bio/static/js/runtime-main.4b678895.js.map",
     "static/css/2.17e01b3e.chunk.css": "/bio/static/css/2.17e01b3e.chunk.css",
-    "static/js/2.7de1ffde.chunk.js": "/bio/static/js/2.7de1ffde.chunk.js",
-    "static/js/2.7de1ffde.chunk.js.map": "/bio/static/js/2.7de1ffde.chunk.js.map",
+    "static/js/2.e6f44751.chunk.js": "/bio/static/js/2.e6f44751.chunk.js",
+    "static/js/2.e6f44751.chunk.js.map": "/bio/static/js/2.e6f44751.chunk.js.map",
     "index.html": "/bio/index.html",
     "static/css/2.17e01b3e.chunk.css.map": "/bio/static/css/2.17e01b3e.chunk.css.map",
     "static/css/main.030443e6.chunk.css.map": "/bio/static/css/main.030443e6.chunk.css.map",
-    "static/js/2.7de1ffde.chunk.js.LICENSE.txt": "/bio/static/js/2.7de1ffde.chunk.js.LICENSE.txt",
+    "static/js/2.e6f44751.chunk.js.LICENSE.txt": "/bio/static/js/2.e6f44751.chunk.js.LICENSE.txt",
     "static/media/Ace.327769d8.png": "/bio/static/media/Ace.327769d8.png",
     "static/media/Nello.b6975995.png": "/bio/static/media/Nello.b6975995.png",
     "static/media/Park_hyeong_woo.c2de1379.hwp": "/bio/static/media/Park_hyeong_woo.c2de1379.hwp",
@@ -37,6 +37,8 @@
     "static/media/profile3.bdf83b6b.png": "/bio/static/media/profile3.bdf83b6b.png",
     "static/media/profile4.f1126129.png": "/bio/static/media/profile4.f1126129.png",
     "static/media/react.efccb116.png": "/bio/static/media/react.efccb116.png",
+    "static/media/react_1.ddd3df1c.jpg": "/bio/static/media/react_1.ddd3df1c.jpg",
+    "static/media/react_2.0c53f5c4.jpg": "/bio/static/media/react_2.0c53f5c4.jpg",
     "static/media/sass.bd31a383.png": "/bio/static/media/sass.bd31a383.png",
     "static/media/slick-theme.css": "/bio/static/media/slick.c94f7671.ttf",
     "static/media/tailwind.28ac6ead.png": "/bio/static/media/tailwind.28ac6ead.png"
@@ -44,8 +46,8 @@
   "entrypoints": [
     "static/js/runtime-main.4b678895.js",
     "static/css/2.17e01b3e.chunk.css",
-    "static/js/2.7de1ffde.chunk.js",
+    "static/js/2.e6f44751.chunk.js",
     "static/css/main.030443e6.chunk.css",
-    "static/js/main.90baf821.chunk.js"
+    "static/js/main.1c6c7879.chunk.js"
   ]
 }
